@@ -1,0 +1,17 @@
+.heading {
+  display: block;
+  color: red;
+  padding: 30px;
+  background-color: aqua;
+}
+
+#min-paragraf {
+  color: blue;
+  background-color: red;
+  width: 100px;
+}
+
+.min-div {
+  display: inline-block;
+  margin-top: 130px;
+}

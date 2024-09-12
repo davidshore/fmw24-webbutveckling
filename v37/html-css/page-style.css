@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  background-color: red;
+  height: 400px;
+  width: 150px;
+  float: left;
+  padding: 20px;
+}
+
+.content {
+  background-color: blue;
+  float: left;
+  width: calc(100% - 150px);
+  height: 400px;
+  text-align: center;
+}
+
+.footer {
+  clear: both;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
