@@ -3,6 +3,11 @@
   color: red;
   padding: 30px;
   background-color: aqua;
+  outline: 2px dashed red;
+}
+
+p {
+  outline: 2px dashed red;
 }
 
 #min-paragraf {
