@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row;
+  height: 300px;
+  align-items: end;
+  justify-content: end;
+}
+
+.box {
+  background-color: red;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.box2 {
+  background-color: red;
+  width: 150px;
+}
+
+.box3 {
+  width: 100%;
+  background-color: aqua;
+}
