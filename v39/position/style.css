@@ -1,0 +1,33 @@
+/* styr position med top, bottom, left och right */
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+  background-color: blue;
+}
+
+.box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  bottom: 0px;
+  right: 50px;
+}
+
+.fixedBox {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  bottom: 0px;
+}
+
+.stickyBox {
+  top: 0px;
+  position: sticky;
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
