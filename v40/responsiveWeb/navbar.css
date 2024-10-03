@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 20px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav i {
+  margin: 10px;
+  color: green;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: -250px;
+  top: 0px;
+  background-color: #eee;
+  width: 250px;
+  padding: 20px;
+  height: 100%;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  transition: left 0.3s ease-in-out;
+}
+
+.navbar.open {
+  left: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 50px;
+  transition: all 300ms;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  width: 240px;
+  height: 70px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
