@@ -4,7 +4,7 @@
 
 // Logga 1 till 5.
 
-for (let i = 0; i < 5; i++) {
+for (let i = 100; i < 500; i++) {
   console.log(i + 1);
 }
 
