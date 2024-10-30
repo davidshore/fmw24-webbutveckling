@@ -27,6 +27,8 @@ while (i < 6) {
 // 32 / 2 = 16
 // Jämnt delbart: 33 / 2 => 16 + 1 rest
 
+// 10 / 2 = 5 + 0 rest
+
 // Skriv en for loop som summerar alla jämna tal
 let sum = 0;
 let numbers = [5, 10, 22, 1, 33, 56];
@@ -34,7 +36,7 @@ let numbers = [5, 10, 22, 1, 33, 56];
 for (let i = 0; i < numbers.length; i++) {
   let num = numbers[i];
 
-  if (num % 2 == 0) {
+  if (num % 2 == 1) {
     sum += num;
     //sum = sum + numbers[i];
   }
