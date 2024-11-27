@@ -1,0 +1,13 @@
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.post {
+}
+
+@media (min-width: 768px) {
+  .posts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
